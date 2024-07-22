@@ -1,0 +1,40 @@
+/* Name of package */
+#cmakedefine PACKAGE "${APPLICATION_NAME}"
+
+/* Version number of package */
+#cmakedefine VERSION "${APPLICATION_VERSION}"
+
+#cmakedefine LOCALEDIR "${LOCALE_INSTALL_DIR}"
+#cmakedefine DATADIR "${DATADIR}"
+#cmakedefine LIBDIR "${LIBDIR}"
+#cmakedefine PLUGINDIR "${PLUGINDIR}"
+#cmakedefine SYSCONFDIR "${SYSCONFDIR}"
+#cmakedefine BINARYDIR "${BINARYDIR}"
+#cmakedefine SOURCEDIR "${SOURCEDIR}"
+
+// add header file, sturcts and functions macro define
+/************************** HEADER FILES *************************/
+/* Define to 1 if you have the <assert.h> header file. */
+#cmakedefine HAVE_ASSERT_H 1
+
+/* Define to 1 if you have the <pthread.h> header file. */
+#cmakedefine HAVE_PTHREAD_H 1
+
+/* Define to 1 if you have the <time.h> header file. */
+#cmakedefine HAVE_TIME_H 1
+
+/* Define to 1 if you have the <hiredis/hiredis.h> header file. */
+#cmakedefine HAVE_HIREDIS_H 1
+
+/* Define to 1 if you have the <uv.h> header file. */
+#cmakedefine HAVE_UV_H 1
+
+/* Define to 1 if you have the <stdatomic.h> header file. */
+#cmakedefine HAVE_STDATOMIC_H 1
+
+/**************************** STRUCTS ****************************/
+#cmakedefine HAVE_STRUCT_TIMESPEC 1
+
+/*************************** FUNCTIONS ***************************/
+/* Define to 1 if you have the `calloc' function. */
+#cmakedefine HAVE_CALLOC 1
